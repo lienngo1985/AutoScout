@@ -1,0 +1,30 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+   "test": "node_modules\\.bin\\cypress run",
+   "headlessTest" : "npm run test -- --headed",
+   "chromeTest": "npm run test -- --browser chrome",
+   "autoScoutTest": "npm run test -- --spec \"cypress/integration/autoScout/FindVehicles/*\""
+  },
+  "author": "ThuongLe",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.0.1",
+    "cypress-iframe": "^1.0.1"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thuongle24/AutoScountDemo.git"
+  },
+  "keywords": [
+    "autoscout"
+  ],
+  "bugs": {
+    "url": "https://github.com/thuongle24/AutoScountDemo/issues"
+  },
+  "homepage": "https://github.com/thuongle24/AutoScountDemo#readme",
+  "description": ""
+}
