@@ -6,7 +6,7 @@
    "test": "node_modules\\.bin\\cypress run",
    "headlessTest" : "npm run test -- --headed",
    "chromeTest": "npm run test -- --browser chrome",
-   "autoScoutTest": "npm run test -- --spec \"cypress/integration/autoScout/FindVehicles/*\""
+   "autoScoutTest": "npm run test -- --headed --spec \"cypress/integration/autoScout/FindVehicles/*\""
   },
   "author": "ThuongLe",
   "license": "ISC",
